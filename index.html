@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Travel arrangements</title>
+    </head>
+    <body>
+        <h2>Travelling Destinations</h2>
+        <ol style="list-style-type: upper-roman">
+            <li>Paris</li>
+            <li>New York</li>
+            <li>Tokyo</li>
+            <li>London</li>
+        </ol>
+        <img src="https://images.pexels.com/photos/20015731/pexels-photo-20015731/free-photo-of-playing-cards-with-landmarks-on-open-atlas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Travel Destinations" width="500" height="450">
+        <table border="1" style="width:50%; border-collapse:collapse; margin-top:20px;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Paris</td>
+                <td>+33 1 23 45 67 89</td>
+                <td>johndoe12@gmail.com</td>
+            </tr>
+            <tr>
+                <td> Brian Murugi</td>
+                <td>211 Elm St, Ruiru</td>
+                <td>+254 700 123 456</td>
+                <td> murugibrian@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Emma</td>
+                <td>456 Oak St, Emakasi</td>
+                <td>+254 700 654 321</td>
+                <td> emmajane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mary June</td>
+                <td>789 Pine St, Nairobi</td>
+                <td>+254 700 987 654</td>
+                <td> junemary6@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Peter Karanja</td>
+                <td>101 Maple St, Mombasa</td>
+                <td>+254 700 321 654</td>
+                <td>karanjpeter@gmail.com</td>
+            </tr>
+        </table>
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name"required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br><br>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="usa">USA</option>
+                <option value="france">France</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+            <label>Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="travel" name="interests" value="travel">
+                <label for="travel">Travel</label>
+                <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset/Cancel">
+        </form>
+    </body>
+    <footer>
+        <h2>Contact Us for more information</h2>
+        <p>&copy; 2025 Travel Agency. All rights reserved.</p>
+    </footer>   
+</html>
